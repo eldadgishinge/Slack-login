@@ -1,0 +1,43 @@
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  width: 811px;
+  height: 1080px;
+  left: 1109px;
+}
+
+.graphics {
+  background-color: #ffe6c9;
+  display: flex;
+  justify-content: flex-start;
+  width: 1109px;
+  height: 1080px;
+}
+
+.loging_page {
+}
+
+#img1 {
+  width: 100.35px;
+  height: 100.91px;
+  top: -60px;
+  left: -69px;
+}
+
+#img2 {
+  width: 350.6px;
+  height: 350.94px;
+  top: 179px;
+  left: 263px;
+  opacity: 0.1px;
+  display: flex;
+  align-items: flex-end;
+}
+
+#img3 {
+  width: 181.43px;
+  height: 98.53px;
+  top: 400px;
+  left: 240px;
+}

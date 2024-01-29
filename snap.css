@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  background-color: white; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.login {
+  background-color: #fff; /* Adjust as needed */
+  border-radius: 10px; /* Adjust as needed */
+  padding: 30px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adjust as needed */
+  text-align: center;
+  width: 550px; /* Adjust as needed */
+}
+.head {
+  margin-bottom: 20px;
+  width: 550px;
+  height: 88px;
+  background-color: #fffc00;
+  border-radius: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo svg {
+  fill: #000; /* Adjust as needed */
+}
+.inside {
+  background-color: white;
+}
+
+.inside h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.inside #button1 {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  background-color: black;
+  color: #fffc00;
+  font-family: HelveticaNeue;
+  width: 228px;
+  height: 48px;
+  left: 75px;
+}
+
+.inside #trouble {
+  font-size: 14px;
+  color: #888; /* Adjust as needed */
+}
+
+.inside #or {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 27px;
+  height: 21px;
+  top: 316px;
+  left: 174px;
+}
+
+form input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid silver;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inside input[type="text"],
+.inside input[type="password"] {
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+
+.inside #Forget {
+  font-size: 14px;
+  color: #888; /* Adjust as needed */
+  display: block;
+  text-align: right;
+  color: blue;
+}
+
+.inside #button2 {
+  background-color: yellow;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 228px;
+  height: 48px;
+  top: 526px;
+  left: 74px;
+  border-radius: 50px;
+  color: black;
+}
+
+.inside #signup {
+  width: 169px;
+  height: 12px;
+  top: 608px;
+  left: 103px;
+  font-family: HelveticaNeue;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+}
